@@ -1,0 +1,283 @@
+body{
+    font-size: 16px;
+    width: 100%;
+    height: auto;
+    min-width: 1000px;
+    margin: 0px;
+    background-color: #cfdfda;
+
+}header{
+    width: 100%;
+    height:auto;
+    position: fixed;
+    top: 0px;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+    border-bottom: 1px solid #173042;
+    z-index: 10;
+
+}
+.menu{
+
+    float: right;
+    padding-right: 60px;
+    font-family: sans-serif;
+    font-size: 16px;
+    height: auto;
+    margin: 10px 0px 0px 0px;
+
+}
+.headcont{
+
+    overflow: auto;
+    float: left;
+    height: 115px;
+    width: 68%;
+    padding: 30px 10px;
+}
+ul.menu li{
+    display: inline;
+    margin: auto;
+
+}
+ul.menu li a {
+
+    color: #173042;
+    padding: 15px 8px;
+    width: auto;
+    text-decoration: none;
+}
+#createbutton{
+    border-radius: 4px 4px 4px 4px;
+    border: 1px solid black;
+    padding: 8px 15px 8px 15px;
+    margin: 20px;
+}
+ul.menu li a:hover {
+    color: #7cad3e
+}
+a#createbutton:hover{
+    border: 1px solid #7cad3e;  
+} 
+.logo{
+    width:auto;
+    height: auto;
+    float: left;
+
+   
+}
+.sliderbox{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    float: left;
+    margin: 100px 0px 0px 0px;
+
+}
+.cont_CP{
+    width: 100%;
+    height: 700px;
+    background-color: #236477;
+    float: left;
+}
+div.currentP{
+    width: 80%;
+    height: auto;
+    background-color: #fff;
+    float: left;
+    margin: 0px 10% 40px 10%;
+}
+div.currentP img{
+    width: 100%;
+    height: 400px;
+}
+
+div.currentP:hover{
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+    
+}
+.H1_PP{
+    color: #fff;
+    text-align: center;
+    margin: 80px 0px 20px 0px;
+}
+.H3_PP{
+    color: #fff;
+    text-align: center;
+    margin: 10px 0px 40px 0px;
+}
+.Hgreen{
+    color:  #7cad3e;
+    float: left;
+    margin: 0px 10px 0px 0px;
+    font-size: 150%;
+
+}
+.Hblue{
+    color:#173042 ;
+    font-size: 150%;
+}
+.cont_SS{
+    width: 100%;
+    height: 700px;
+    background-color: #7cad3e;
+    float: left;
+}
+div.div_card{
+    width: 80%;
+    height: 300px;
+    float: left;
+    margin: 20px 10% 40px 10%;
+}
+div.div_card img:hover{
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+}
+.div_card1{
+    width: 80%;
+    height: 300px;
+    float: left;
+    margin: 20px 10% 40px 10%;
+}
+.card-img-top1{
+    width: 100%;
+    height: 400px;
+}
+.exmargin{
+    margin: 0px 0px 20px 0px;
+}
+.H1_SS{
+    color: #fff;
+    text-align: center;
+    margin: 80px 0px 80px 0px;
+}
+footer{
+    width: 100%;
+    height: 540px;
+    background-color: #173042;
+    float: left;
+    margin: 0PX 0PX 0PX 0PX; 
+}
+.blocks_foot{
+    width: 33.3%;
+    height: 540px;
+    float: left;
+}
+.sub_block{
+    width: 100%;
+    height: 25%;
+    float: left;  
+}
+.H1_FOOT{
+    color: #ffF;
+    text-align: center;
+    margin: 40px 0px 0px 0px;
+}
+.H3_FOOT{
+    color: #ffF;
+    text-align: center;
+    margin: 0PX 0PX 20 0PX;
+}
+.H4_FOOT{
+    color: #ffF;
+    text-align: center;
+    margin: 0PX 0PX 20 0PX;
+}
+ul.menu_foot {
+    list-style: none;
+    margin: 20px 40px 0px 0px;
+    text-align: center;
+}
+ul.menu_foot li{
+    margin-top: 20px;
+}
+ul.menu_foot a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 200%;
+}
+ul.menu_foot a:hover{
+    color: #7cad3e;
+    font-size: 250%;
+}
+ul.socialM li{
+    width: 20%;
+    float: left;
+    margin: 0px 80px 40px 20px;
+}
+ul.socialM{
+    list-style: none;
+    margin: 60px 0px 0px 60px;
+
+}
+ul.socialM a:hover{
+    opacity: 0.8;
+    filter: alpha(opacity=80);    
+}
+.social1{
+    width: 100%;
+    height: 75%;
+    float: left;
+}
+.ref{
+    color: #fff;
+    margin: 80px 0px 0px 60px;;
+}
+.ref a{
+    color: #fff;
+    text-decoration: none;
+}
+.ref a:hover{
+    color: #7cad3e;
+    font-size: 120%;
+}
+.gallery{
+    width:100%;
+    height: auto;
+    margin:110px 0% 0px 0%;  
+    float: left;
+
+}
+.H1G{
+    color: #fff;
+    text-shadow: -1px 0 rgb(34, 34, 34), 0 1px rgb(59, 59, 59), 1px 0 rgb(94, 94, 94), 0 -1px rgb(83, 83, 83);
+}
+.H1B{
+    color: #173042;
+    float: left;
+}
+.OPAC{
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+.link{
+    text-decoration:none;
+    color: #173042;
+
+}
+.contact{
+    width: 802px;
+    height: auto;
+    margin: 130px 0 20px 20%;
+    border: 1px solid #173042;
+}
+imgC{
+    width: 1200px;
+    height: 500px;
+
+    
+}
+.sServices{
+    width: 100%;
+    height: auto;
+    margin: 100px 0 20 0;
+
+
+}
+.projects{
+    width: 100%;
+    height: auto;
+    margin: 80px 0 0 0;
+
+}
